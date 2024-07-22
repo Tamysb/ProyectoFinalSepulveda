@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 const Item = ({id,title,images,price})=>{
+    
     return(
         <div >
             <section className="grid gap-8 grid-cols-[repeat(auto-fill,minmax(250px,1fr))]">

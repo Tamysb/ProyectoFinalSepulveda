@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import ItemDetail from "../ItemDetail/ItemDetail"
 import { useParams } from "react-router-dom"
+import Carrito from "../Carrito/Carrito"
 function ItemDetailContainer(){
     const [producto,setProducto]=useState({})
     const {id}= useParams()
